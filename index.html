@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html  lang="en">
 <head>
-	<title>CV - Asep Saepul Pahmit | Web Developer</title>
+	<title>CV - Asep Saepul Pahmit </title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
@@ -14,10 +14,71 @@
 	<link href="css/font-awesome.min.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 	<link rel="shortcut icon" href="images/avatar.png">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
 
-		<style>
 
-		</style>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+		<script src="js/ScrollMagic.js"></script>
+
+  <style>
+	.exp {
+		display: none;
+	}
+	.fadeInUp {
+		display: block;
+	}
+    header {
+        background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/background.png);/*==========UPDATE IMAGE HERE================*/
+        background-image: -moz-linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/background.png); /* Firefox-specific background styles */
+        background-image: -webkit-linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(img/background.png);
+        background-size: cover;
+        background-attachment: fixed;
+        height: 796px;
+        width: 100%;
+    }
+
+    .item {
+      position: relative;
+      background-color: #fff;
+      color:black;
+      border-radius: 0px;
+      /* padding-bottom:20px; */
+      padding-left:10px;
+      padding-right:10px;
+
+
+    }
+    .item-img {
+
+      /* border:2px solid black; */
+      border-radius:0px;
+      margin-top:-10px;
+      height:150px;
+	  width:300px;
+
+    }
+    .item-img3 {
+
+      border:2px solid black;
+      border-radius:0px;
+      margin-top:-10px;
+      height:200px;
+
+    }
+
+    .item-img2 {
+      /* border:2px solid black; */
+      /* border-radius:10px */
+      margin-top:-10px;
+      max-width:150px;
+    }
+
+    .tm-social-link {
+        padding-bottom: 50px;
+        font-size: 25px;
+      }</style>
 </head>
 <body style="background:#fff;" data-spy="scroll" data-target="#navbar2" data-offset="0">
 <div class="press">
@@ -25,9 +86,9 @@
 	<div class="container">
 		<div class="row">
 			<div id="" class="banner animated">
-				<h1 class="head animated slideInLeft">Asep Saepul Pahmit
+				<h1 class="head animated slideInUp">Asep Saepul Pahmit
 				</h1>
-				<p class="head">	Web Designer & Developer
+				<p class="head animated slideInUp" style="animation-delay:0.15s;">	Curriculum Vitae
 						<!-- <a href=""><i class="fa fa-github"></i></a>
 						<a href=""><i class="fa fa-facebook-official"></i></a>
 						<a href=""><i class="fa fa-instagram"></i></a>
@@ -48,10 +109,10 @@
 						 <div class="toggle"></div>
 						 <ul class="nav navbar-nav">
 							 <li  class="active"><a href="#about" >ABOUT</a></li>
-							 <li><a href="#skill">SKILLS</a></li>
-							 <li><a href="#experience">EXPERINCE</a></li>
-							 <li><a href="#education">EDUCATION</a></li>
-							 <li><a href="#contact">CONTACT</a></li>
+							 <li class=" animated fadeInLeft"  style="animation-delay:3s;"><a href="#skill">SKILLS</a></li>
+							 <li class=" animated fadeInLeft"  style="animation-delay:4s;"><a href="#experience">EXPERINCE</a></li>
+							 <li class=" animated fadeInLeft"  style="animation-delay:5s;"><a href="#education">EDUCATION</a></li>
+							 <li class=" animated fadeInLeft"  style="animation-delay:6s;"><a href="#portfolio">PORTFOLIO</a></li>
 							 <!-- <li><a href="#">SKILLS</a></li> -->
 
 
@@ -78,33 +139,42 @@
 				<div class="col-sm-12">
 				<div class="col-sm-4">
 					<div class="trapesium">
-						<p class="trapesium-title">ABOUT ME</p>
+						<p class="trapesium-title ">ABOUT ME</p>
 					</div>
 				</div>
 			</div>
-				<div class="col-sm-4" style="margin-left:">
+				<div class="col-sm-4 " style="margin-left:">
 					<div class="" style="margin-left:30px;">
-							<h4><b class="blue-aboutme1">Birth </b> 11 August 1998</h4>
-							<h4><b class="blue-aboutme2">Web </b> saepulasep.me</h4>
-							<h4><b class="blue-aboutme3">Phone </b> 089648338115</h4>
-							<h4><b class="blue-aboutme4">Email </b> asep.saepul205@gmail.com</h4>
+							<h4 class="animated fadeInUp" style="animation-delay:0.8s;"><b class="blue-aboutme1">Birth </b> 11 August 1998</h4>
+							<h4 class="animated fadeInUp" style="animation-delay:1s;"><b class="blue-aboutme2">Web </b> saepulasep.me</h4>
+							<h4 class="animated fadeInUp" style="animation-delay:1.2s;"><b class="blue-aboutme3">Phone </b> 085695296589</h4>
+							<h4 class="animated fadeInUp" style="animation-delay:1.4s;"><b class="blue-aboutme4">Email </b> asep.saepul205@gmail.com</h4>
 
-							<div class="sosmed" style="">
+							<div class="sosmed  animated fadeInUp"  style="animation-delay:2s;">
 							<a href=""><i style="color:#304153" class="fa fa-facebook-square"></i></a>
 							 <a href=""><i style="color:#25a9b5"class="fa fa-twitter-square"></i> </a>
 							<a href=""><i style="color:#514141" class="fa  fa-instagram"></i> </a>
-							 <a href=""><i style="color:#ff0000" class="fa  fa-google-plus-square"></i>  </a>
-							 <a href=""><i style="color:#25a9b5" class="fa  fa-github-square"></i></a>
+							 <a href="https://plus.google.com/u/0/108340936812255616435"><i style="color:#ff0000" class="fa  fa-google-plus-square"></i>  </a>
+							 <a href="https://github.com/Aika1603/"><i style="color:#25a9b5" class="fa  fa-github-square"></i></a>
 						</div>
 					</div>
 				</div>
 				<div class=" col-sm-7" style="border-top:4px solid #25a9b5;border-bottom:4px solid #25a9b5; margin-left:30px;padding-bottom:25px;">
 					<div class="row" style="margin-top:20px">
-						<div class="col-sm-3" class="avatar-frame">
-							<img src="images/avatar.png" class="avatar">
+						<div class="col-sm-3 avatar-frame  animated fadeIn"  style="animation-delay:2s;">
+							<img src="images/asep.jpg" class="avatar" style="width:150px;border-radius:10%;">
 						</div>
-						<div class="col-sm-9">
-							Since the Google Translate API is a paid service, you will also need to enable billing in your project settings. To do so, click Billing in the left menu on the Google APIs Console and then Enable billing. You will be asked to enter the payment data such as your address and credit card number. Different payment options are available in various countries but credit card payment should be recognised worldwide.
+						<div class="col-sm-9 animated fadeIn"  style="animation-delay:2s;font-size:16px;">
+							<table>
+							<tr><td style="width: 30%">Name		</td><td style="width: 5%">: </td><td style="width: 60%"> Asep Saepul Pahmit</td></tr>
+							<tr><td>Birthplace	</td><td>:</td><td> Karawang</td></tr>
+							<tr><td>Gender		</td><td>:</td><td> Male</td></tr>
+							<tr><td>Nationality	</td><td>:</td><td> Indonesia</td></tr>
+							<tr><td>Status			</td><td>:</td><td> Single</td></tr>
+							<tr><td>Address	</td><td>:</td><td> Jl. Kantor Desa Kondang Jaya, RT 01/01, Desa Kondang Jaya,
+  Kecamatan Karawang Timur, Kabupaten Karawang</td></tr>
+  </table>
+
 						</div>
 					</div>
 
@@ -128,16 +198,16 @@
 
 			<br/><p>
 				<br/>
-			<div class="skillbar clearfix " data-percent="90%">
+			<div class="skillbar clearfix " data-percent="70%">
 				<div class="skillbar-title" style="background: #d35400;"><span>HTML5</span></div>
 				<div class="skillbar-bar" style="background: #e67e22;"></div>
-				<div class="skill-bar-percent">90%</div>
+				<div class="skill-bar-percent">70%</div>
 			</div> <!-- End Skill Bar -->
 
-			<div class="skillbar clearfix " data-percent="85%">
+			<div class="skillbar clearfix " data-percent="75%">
 				<div class="skillbar-title" style="background: #2980b9;"><span>CSS3</span></div>
 				<div class="skillbar-bar" style="background: #3498db;"></div>
-				<div class="skill-bar-percent">85%</div>
+				<div class="skill-bar-percent">75%</div>
 			</div> <!-- End Skill Bar -->
 
 			<div class="skillbar clearfix " data-percent="50%">
@@ -146,28 +216,34 @@
 				<div class="skill-bar-percent">50%</div>
 			</div> <!-- End Skill Bar -->
 
-			<div class="skillbar clearfix " data-percent="80%">
+			<div class="skillbar clearfix " data-percent="75%">
 				<div class="skillbar-title" style="background: #46465e;"><span>PHP</span></div>
 				<div class="skillbar-bar" style="background: #5a68a5;"></div>
-				<div class="skill-bar-percent">80%</div>
-			</div> <!-- End Skill Bar -->
-
-			<div class="skillbar clearfix " data-percent="80%">
-				<div class="skillbar-title" style="background: #e67e22;"><span>CodeIgniter</span></div>
-				<div class="skillbar-bar" style="background: #d35400;"></div>
-				<div class="skill-bar-percent">80%</div>
-			</div> <!-- End Skill Bar -->
-
-			<div class="skillbar clearfix " data-percent="80%">
-				<div class="skillbar-title" style="background: #333333;"><span>Wordpress</span></div>
-				<div class="skillbar-bar" style="background: #525252;"></div>
-				<div class="skill-bar-percent">80%</div>
+				<div class="skill-bar-percent">75%</div>
 			</div> <!-- End Skill Bar -->
 
 			<div class="skillbar clearfix " data-percent="70%">
+				<div class="skillbar-title" style="background: #e67e22;"><span>CodeIgniter</span></div>
+				<div class="skillbar-bar" style="background: #d35400;"></div>
+				<div class="skill-bar-percent">70%</div>
+			</div> <!-- End Skill Bar -->
+
+			<div class="skillbar clearfix " data-percent="60%">
+				<div class="skillbar-title" style="background: #333333;"><span>Wordpress</span></div>
+				<div class="skillbar-bar" style="background: #525252;"></div>
+				<div class="skill-bar-percent">60%</div>
+			</div> <!-- End Skill Bar -->
+
+			<div class="skillbar clearfix " data-percent="60%">
 				<div class="skillbar-title" style="background: #27ae60;"><span>Javascript</span></div>
 				<div class="skillbar-bar" style="background: #2ecc71;"></div>
-				<div class="skill-bar-percent">70%</div>
+				<div class="skill-bar-percent">60%</div>
+			</div> <!-- End Skill Bar -->
+
+			<div class="skillbar clearfix " data-percent="75%">
+				<div class="skillbar-title" style="background: #e67e22;"><span>MySQL</span></div>
+				<div class="skillbar-bar" style="background: #d35400;"></div>
+				<div class="skill-bar-percent">75%</div>
 			</div> <!-- End Skill Bar -->
 
 		</p>
@@ -182,14 +258,14 @@
 	 width="1400px" class="separator" style="width:100%;margin:0px;padding:0px;left:0;" viewBox="0 0 1400 135" style="enable-background:new 0 0 1400 135;" xml:space="preserve">
 <polyline style="fill:#304153;" points="102,61.5 129.5,19 157,61.5 1394.556,61.5 1400,61.5 1400,135 0,135 0,62 "/>
 </svg>
-<section class="sec4" id="experience">
-	<div class="container">
+<section class="sec4" id="experience" >
+	<div  class="container exp experience animated" style="height: auto;">
 			<div class="row">
 					<div class="press">
 				<div class="col-sm-12">
 				<div class="col-sm-4">
 					<div class="kotak">
-						<p class="kotak-title">EXPERINCE</p>
+						<p class="kotak-title" >EXPERINCE</p>
 					</div>
 				</div>
 				<div class=" col-sm-7 line-blue"  style="border-top:4px solid #25a9b5; margin-left:30px;margin-top:10px;">
@@ -198,17 +274,30 @@
 				<div class="col-sm-12" style="margin-left:">
 
 				</div>
-				<div class=" col-sm-12" >
+				<div class=" col-sm-12"  >
 					<div class="row" style="margin-top:20px">
-						<ul>
-							<li>
+						<ul class="">
+						<div >
+							<li >
+								<div class="animated bounceIn" style="animation-delay:1s;">
 								<h3>Junior Web Programming  <label class="label label-info">2016 - 2017</label></h3>
-								Since the Google Translate API is a paid service, you will also need to enable billing in your project settings. To do so, click Billing in the left menu on the Google APIs Console and then Enable billing. You will be asked to enter the payment data such as your address and credit card number. Different payment options are available in various countries but credit card payment should be recognised worldwide.
+								Bagian dari tim <i>Junior Web Programming</i> dalam pembuatan Website Official Event doIT Fasilkom UNSIKA 2017.
+								</div>
 							</li>
-							<li>
-								<h3>Junior Web Programming  <label class="label label-info">2016 - 2017</label></h3>
-								Since the Google Translate API is a paid service, you will also need to enable billing in your project settings. To do so, click Billing in the left menu on the Google APIs Console and then Enable billing. You will be asked to enter the payment data such as your address and credit card number. Different payment options are available in various countries but credit card payment should be recognised worldwide.
+							<li >
+								<div class="animated bounceIn" style="animation-delay:2s;">
+									<h3>Divisi Pengembang Teknologi Informasi BEM Fasilkom tahun 2018 <label class="label label-info">2018</label></h3>
+									Anggota dari pengembang teknologi informasi BEM Fasilkom tahun 2018. Termasuk dalam pembuatan Sistem Absensi BEM, Website Official Event Semantik 2.0 (Seleksi Mahasiswa Top Informatik), Website Official doIT 2.0 Fasilkom UNSIKA 2018, dan Web Company Profile BEM.
+								</div>
 							</li>
+							<li >
+								<div class="animated bounceIn" style="animation-delay:3s;">
+									<h3>Freelancer Web Desain & Web Development  <label class="label label-info">2017 - 2018</label></h3>
+									Menjadi <i>freelancer</i> dalam pembuatan beberapa projek aplikasi berbasis website.
+									</div>
+							</li>
+
+
 						</ul>
 					</div>
 				</div>
@@ -218,9 +307,9 @@
 </section>
 
 
-<section class="sec5" id="education">
-	<div class="container">
-			<div class="row">
+<section class="sec5" id="education" >
+	<div class="container" style="height:300px;">
+			<div class="row  exp education animated">
 					<div class="press">
 				<div class="col-sm-12">
 
@@ -235,16 +324,21 @@
 				<div class="col-sm-12" style="margin-left:">
 
 				</div>
-				<div class=" col-sm-12" >
+				<div class=" col-sm-12  education animated" >
 					<div class="row" style="margin-top:20px">
 						<ul>
 							<li>
-								<h3>Study Club Fasilkom Unsika  <label class="label label-info">2016 - 2018</label></h3>
-								Since the Google Translate API is a paid service, you will also need to enable billing in your project settings. To do so, click Billing in the left menu on the Google APIs Console and then Enable billing. You will be asked to enter the payment data such as your address and credit card number. Different payment options are available in various countries but credit card payment should be recognised worldwide.
+								<h3 style="font-size:18px;"> <label style="font-size:19px;" class="label label-info">2004 – 2010</label> SD Negeri Kondang Jaya 3, Karawang.</h3>
 							</li>
 							<li>
-								<h3>Junior Web Programming  <label class="label label-info">2016 - 2017</label></h3>
-								Since the Google Translate API is a paid service, you will also need to enable billing in your project settings. To do so, click Billing in the left menu on the Google APIs Console and then Enable billing. You will be asked to enter the payment data such as your address and credit card number. Different payment options are available in various countries but credit card payment should be recognised worldwide.
+								<h3 style="font-size:18px;"> <label style="font-size:19px;"  class="label label-info">2010 – 2013</label> SMP Negeri 5 Karawang Barat, Karawang. </h3>
+							</li>
+							<li>
+								<h3 style="font-size:18px;"> <label style="font-size:19px;"  class="label label-info">2013 – 2016</label> SMA Negeri 5 Karawang, Karawang.  </h3>
+							</li>
+							<li>
+								<h3 style="font-size:18px;"><label style="font-size:19px;"  class="label label-info">2016 – Now</label> Mahasiswa Semester 5 Jurusan S1-Teknik Informatika, Fakultas Ilmu Komputer,
+								Universitas Singaperbangsa Karawang  </h3>
 							</li>
 						</ul>
 					</div>
@@ -253,15 +347,167 @@
 		</div>
 	</div>
 </section>
-<footer>
+
+<section class="sec5" >
+	<div class="container " id="portfolio" style="height:400px;">
+			<div class="row exp  portfolio animated">
+					<div class="press">
+				<div class="col-sm-12" >
+
+				<div class="col-sm-4">
+					<div class="kotak">
+						<p class="kotak-title">PORTFOLIO</p>
+					</div>
+				</div>
+				<div class=" col-sm-7 line-blue"  style="border-top:4px solid #25a9b5; margin-left:30px;margin-top:10px;">
+				</div>
+			</div>
+				<div class="col-sm-12" style="margin-left:">
+
+				</div>
+				<div class=" col-sm-12" >
+					<div class="row" style="margin-top:50px">
+						<div class="owl-carousel owl-theme animated fadeInUp" style="animation-delay:1s;">
+
+
+    <div class="" >
+      <img class="item-img" src="images/bem.PNG"></td><!-- UPDATE IMAGE HERE -->
+      <div class="title" style="background:#25a9b5;padding-bottom:5px;text-align:center;">
+      <a href="" style="color:white;font-size:20px;" class="" data-toggle="modal" data-target="#myModal1" >Company Profile BEM Fasilkom</a><br/>
+
+      </div>
+    </div>
+	<div class="" >
+      <img class="item-img" src="images/doit2.0.PNG"></td><!-- UPDATE IMAGE HERE -->
+      <div class="title" style="background:#25a9b5;padding-bottom:5px;text-align:center;">
+      <a href="" style="color:white;font-size:20px;" class="" data-toggle="modal" data-target="#myModal2" >Official Website doIT 2.0</a><br/>
+
+      </div>
+    </div>
+	<div class="" >
+      <img class="item-img" src="images/siabi.PNG"></td><!-- UPDATE IMAGE HERE -->
+      <div class="title" style="background:#25a9b5;padding-bottom:5px;text-align:center;">
+      <a href="" style="color:white;font-size:20px;" class="" data-toggle="modal" data-target="#myModal3" >Sistem Absensi BEM</a><br/>
+
+      </div>
+    </div>
+	<div class="" >
+      <img class="item-img" src="images/semantik.PNG"></td><!-- UPDATE IMAGE HERE -->
+      <div class="title" style="background:#25a9b5;padding-bottom:5px;text-align:center;">
+      <a href="" style="color:white;font-size:20px;" class="" data-toggle="modal" data-target="#myModal4" >Official Website Semantik 2.0</a><br/>
+
+      </div>
+    </div>
+	<div class="" >
+      <img class="item-img" src="images/resto.PNG"></td><!-- UPDATE IMAGE HERE -->
+      <div class="title" style="background:#25a9b5;padding-bottom:5px;text-align:center;">
+      <a href="" style="color:white;font-size:20px;" class="" data-toggle="modal" data-target="#myModal5" >E-Commerce | Restoran Padang</a><br/>
+
+      </div>
+    </div>
+
+
+
+  </div>
+  <script>
+    jQuery(document).ready(function($) {
+      var owl = $('.owl-carousel');
+      owl.owlCarousel({
+        autoplay:true,
+        autoplayTimeout:2000,
+        autoplayHoverPause:true,
+        loop: true,
+        nav: false,
+        lazyLoad: true,
+        margin: 20,
+        video: true,
+        autoPlay:100,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 3
+          },
+          960: {
+            items: 4,
+          },
+          1200: {
+            items: 4
+          }
+        }
+      });
+    });
+  </script>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<div class="modal fade" id="myModal1" role="dialog">
+  <div class="modal-dialog modal-lg">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Company Profile BEM Fasilkom UNSIKA 2018</h4>
+      </div>
+      <div class="modal-body">
+    <div class="row">
+      <div class="col-sm-12">
+        <td><img class="item-img3" src="images/bem.PNG"></td>
+      </div>
+      <div class="col-sm-12">
+        <h3>Description</h3>
+        Website ini merupakan official website untuk BEM Fasilkom yang berisi informasi tentang Organisasi BEM Fasilkom. Termasuk :
+				<ul>
+					<li>Struktur Organisasi</li>
+					<li>Visi dan Misi</li>
+					<li>Grand Desain</li>
+					<li>Anggota</li>
+					<li>Logo</li>
+					<li>Berita</li>
+				</ul>
+
+        <h3>Technology used</h3>
+        PHP, MYSQL, & Wordpress Versi 4
+        <h3>Features</h3>
+				<ul>
+					<li>Struktur Organisasi</li>
+					<li>Visi dan Misi</li>
+					<li>Grand Desain</li>
+					<li>Anggota</li>
+					<li>Logo</li>
+					<li>Berita</li>
+				</ul>
+        <h3>Client</h3>
+        <a href="https://bem.cs.unsika.ac.id/">https://bem.cs.unsika.ac.id/</a>
+        <h3>Work Duration</h3>
+        1 Pekan
+      </div>
+    </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+<footer style="">
+
 </footer>
 
 <script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
 <script src="js/jquery.knob.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/move-top.js"></script>
 <script type="text/javascript" src="js/easing.js"></script>
 <script src="js/main.js"></script>
+<script src="js/ScrollMagic.js"></script>
 <script type="text/javascript">
 		jQuery(document).ready(function($) {
 			$(".scroll").click(function(event){
@@ -305,22 +551,22 @@ jQuery('.skillbar').each(function(){
 var con = new ScrollMagic.Controller();
 
 var scene = new ScrollMagic.Scene({
- triggerElement : '.sec2'
+ triggerElement : '#experience'
 })
-.setClassToggle('.anim-sec2-1', 'bounceInLeft')
+.setClassToggle('.experience', 'fadeInUp')
 .addTo(con);
 
 var scene = new ScrollMagic.Scene({
- triggerElement : '.clearfix'
+ triggerElement : '#education'
 })
-.setClassToggle('#banner', 'zap')
+.setClassToggle('.education', 'fadeInUp')
+.addTo(con);
+var scene = new ScrollMagic.Scene({
+ triggerElement : '#portfolio'
+})
+.setClassToggle('.portfolio', 'fadeInUp')
 .addTo(con);
 
-var scene = new ScrollMagic.Scene({
- triggerElement : '.sec4'
-})
-.setClassToggle('.anim-sec4-1', 'bounceInLeft')
-.addTo(con);
 
 
 </script>
